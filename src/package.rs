@@ -99,7 +99,7 @@ impl Package {
     }
 }
 
-impl std::fmt::Display for Package {
+impl fmt::Display for Package {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "{}", self.nevra())
     }
